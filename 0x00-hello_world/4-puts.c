@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main prints out "Programming is like building a multilingual puzzle"
- * Returns 0
+ * main - prints out "Programming is like building a multilingual puzzle"
+ * Returns: 0 when exited ok
  */
 
-int main(void){
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
