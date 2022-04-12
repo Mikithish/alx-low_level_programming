@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int add_num(a, b)
+int _putchar(int a, int b)
 {
 	sum = a + b;
 

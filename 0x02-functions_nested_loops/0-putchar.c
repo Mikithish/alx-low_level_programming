@@ -6,9 +6,9 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int manin(void)
+int main(void)
 {
-	printf("_putchar\n");
+	printf("%d\n", _putchar(23,36);
 
 	return 0;
 }
