@@ -8,7 +8,15 @@
  */
 int main(void)
 {
-	printf("%d\n", _putchar(23,36));
+	char text[10] = "_putchar";
+
+	int i;
+
+	for (i = 0, i <= 8; i++)
+	{
+		putchar(text[i]);
+	}
+	putchar("\n");
 
 	return 0;
 }
