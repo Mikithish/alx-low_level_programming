@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * print_alphabet - prints alphabets in lowercase,
+ * followed by a new line
  * Return: Always void.
  */
 void print_alphabet(void)
