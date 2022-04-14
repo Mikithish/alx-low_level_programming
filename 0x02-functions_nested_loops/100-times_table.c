@@ -3,7 +3,9 @@
 /**
  * print_times_tables - prints the times table
  * @n: integer for whick the times table will be printed
+ *
  * Description: prints the times table
+ *
  * Return: void
  */
 
