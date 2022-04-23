@@ -2,24 +2,22 @@
 
 /**
  * _strncpy - two words
- * @dest : pointer to char params
- * @src : pointer to char params
- * @n : int params
+ * @s1 : pointer to char params
+ * @s2 : pointer to char params
  * Return: *dest
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char _strcmp(char *s1, char *s2)
 {
 	int i;
+	int R;
 
-	for (i = 0; scr[i] != '\0' && i < n; i++)
-	{
-		dest[i] = src[i];
-	}
+	i = 0;
 
-	for ( ; i < n; i++)
+	while (s1[i] == s2[i] && (s1[i] != '\0' || s2[i] != '\0'))
 	{
-		dest[i] = '\0';
+		i++;
 	}
-	return (dest);
+	R = s1[i] - s2[i];
+	return (R);
 }
