@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strncpy - two words
+ * _strcmp - compare
  * @s1 : pointer to char params
  * @s2 : pointer to char params
  * Return: *dest
  */
 
-char _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 	int R;
