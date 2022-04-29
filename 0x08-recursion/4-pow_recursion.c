@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 
 /**
  * _pow_recursion - pow recursion
@@ -7,7 +7,7 @@
  * Return: recursion
  */
 
-int _pow_recursion(int x. int y)
+int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 	{
