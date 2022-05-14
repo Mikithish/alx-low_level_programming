@@ -8,7 +8,6 @@
  * @n: The number of integers passed to the function.
  * @...: A variable number of numbers to be printed.
  */
-
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list nums;
@@ -18,13 +17,13 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	for (index = 0; index < n; index++)
 	{
-		printf("%d",va_arg(nums, int));
+		printf("%d", va_arg(nums, int));
 
 		if (index != (n - 1) && separator != NULL)
-			print("%S", separator);
+			printf("%s", separator);
 	}
 
 	printf("\n");
 
-	va_end(nus);
+	va_end(nums);
 }
