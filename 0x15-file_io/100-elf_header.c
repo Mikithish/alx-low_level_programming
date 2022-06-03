@@ -2,7 +2,7 @@
   
 /*
  * File: 100-elf_header.c
- * Auth: Isheka M A Turay
+ * Auth: Brennan D Baraban
  */
 
 #include <elf.h>
